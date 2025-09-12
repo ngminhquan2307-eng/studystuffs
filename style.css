@@ -4,7 +4,6 @@ body {
   margin-top: 50px;
   background: #f0f0f0;
 }
-
 h1 {
   color: #333;
 }
@@ -15,4 +14,8 @@ button {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+}
+.product-img {
+  max-width: 100%;
+  height: auto;
 }
