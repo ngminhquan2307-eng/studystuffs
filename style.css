@@ -19,7 +19,8 @@ direct {
   cursor: pointer;
 }
 .product-img {
-  max-width: 150;
+  max-width: 150px;
   height: auto;
 }
+
 
