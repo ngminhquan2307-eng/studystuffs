@@ -19,9 +19,10 @@ h1 {
   cursor: pointer;
 }
 .product-img {
-  max-width: 150px;
+  width: 150px;
   height: auto;
 }
+
 
 
 
