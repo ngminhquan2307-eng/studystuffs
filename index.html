@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="guest">
+    Guest account
+    <input type="text" id="username" placeholder="Enter username">
+    <button onclick="login()">Log in</button>
+  </div>
+  <div id="loggedIn">
+    @<span id="user"></span>
+    <button onclick="logout()">Log out</button>
+  </div>
   <h1>We sell everything!<span style="font-size: 16px; color: #333;">(i think?)</span></h1>
   <div class="products">
     <div class="item">
@@ -19,6 +28,7 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
